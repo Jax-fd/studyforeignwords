@@ -1,0 +1,70 @@
+html {
+	position: relative;
+	min-height: 100%;
+	/* display:flex; */
+	/* flex-direction:column; */
+}
+body {
+	
+	margin-bottom: 60px;
+	
+	font-family: arial,sans-serif;
+	background-color:#f6e1b4;
+	
+	min-height:100%;
+	/* display:flex;*/
+	/* flex-direction:column; */
+	/* flex:auto; */
+	/* align-items:center; */
+	/* align-items:stretch; */
+	
+	/* justify-content:space-between; */
+}
+.flex-p{
+	display:flex;
+	flex:auto;
+	flex-direction:column;
+	
+}
+.flex-i{
+	flex:auto;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+	height: 60px;
+	background-color: #f5c45b;
+}
+.my-navbar-bg{
+	background-color:#f5c45b;
+}
+.head-title{
+	color:black;
+}
+.text-footer{
+	text-align:center;
+}
+.btn-p{
+	width:300px;
+	display:inline-block;
+}
+.pp-block{
+	text-align:center;
+}
+.pan_border{
+	border-top:solid 1px #ddd;
+}
+
+.prev_word{
+	text-align:center;
+	padding:30px;
+	font-size:15pt;
+}
+.cur_word{
+	text-align:center;
+	padding:30px;
+	font-size:25pt;
+}
